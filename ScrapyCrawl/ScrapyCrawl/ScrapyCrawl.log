@@ -1,0 +1,1253 @@
+2018-05-06 21:41:52 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:41:53 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:41:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:41:53 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:41:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:41:53 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:41:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:42:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:42:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10727,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 547247,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 42, 6, 82851),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 41, 53, 829150)}
+2018-05-06 21:42:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:42:14 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://www.amac.org.cn/xxgs/jlcf/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-05-06 21:43:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:43:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:43:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:43:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:43:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:43:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:43:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:43:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:43:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10747,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 546883,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 43, 18, 802011),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 43, 8, 471420)}
+2018-05-06 21:43:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:44:08 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 20 pages/min), scraped 19 items (at 19 items/min)
+2018-05-06 21:45:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:45:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:45:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:45:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:45:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:45:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:45:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:45:08 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 0 pages/min), scraped 19 items (at 0 items/min)
+2018-05-06 21:45:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:45:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10720,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 547303,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 45, 19, 706926),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 45, 8, 64260)}
+2018-05-06 21:45:19 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:45:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:45:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10404,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 540366,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 45, 23, 717155),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 18,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 45, 8, 52259)}
+2018-05-06 21:45:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:46:08 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 0 pages/min), scraped 19 items (at 0 items/min)
+2018-05-06 21:46:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:46:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/request_bytes': 10993,
+ 'downloader/request_count': 22,
+ 'downloader/request_method_count/GET': 22,
+ 'downloader/response_bytes': 540366,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 46, 21, 152440),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 40,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 1,
+ 'scheduler/dequeued': 22,
+ 'scheduler/dequeued/memory': 22,
+ 'scheduler/enqueued': 22,
+ 'scheduler/enqueued/memory': 22,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 43, 8, 457419)}
+2018-05-06 21:46:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:47:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:47:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:47:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:47:08 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:47:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:47:08 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:47:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:47:11 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:47:11 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:47:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:47:11 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:47:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:47:11 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:47:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:47:22 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:47:22 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10698,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 547010,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 47, 22, 613956),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 47, 11, 869341)}
+2018-05-06 21:47:22 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:47:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:47:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10396,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 540366,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 47, 31, 841484),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 17,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 47, 11, 854340)}
+2018-05-06 21:47:31 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:50:24 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:50:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:50:25 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:50:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:50:25 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 21:50:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 21:50:25 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 21:50:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 21:50:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:50:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10800,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 547818,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 50, 37, 439099),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 50, 25, 157397)}
+2018-05-06 21:50:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 21:51:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 21:51:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10422,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 540366,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 13, 51, 6, 801779),
+ 'item_scraped_count': 20,
+ 'log_count/INFO': 17,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2018, 5, 6, 13, 50, 25, 143396)}
+2018-05-06 21:51:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 22:00:00 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 22:00:00 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 22:00:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 22:00:00 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 22:00:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 22:00:00 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 22:00:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 22:02:44 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 22:02:44 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 22:02:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 22:02:44 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'ScrapyCrawl', 'LOG_FILE': 'ScrapyCrawl.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'ScrapyCrawl.spiders', 'SPIDER_MODULES': ['ScrapyCrawl.spiders']}
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'ScrapyCrawl.middlewares.RandomUserAgent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-06 22:02:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCrawl.pipelines.ScrapycrawlPipeline']
+2018-05-06 22:02:44 [scrapy.core.engine] INFO: Spider opened
+2018-05-06 22:02:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-06 22:02:49 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392955.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:54 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392956.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180429/4445449.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392958.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180501/4445479.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180501/4445500.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180501/4445498.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392959.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180501/4445507.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180502/4445556.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180502/4445578.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180502/4445611.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180502/4445664.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392966.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392967.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:02:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392960.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392968.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392969.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392970.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:03 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392044.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392712.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:05 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392715.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392713.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/391692.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392860.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392263.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://economy.caijing.com.cn/20180502/4445608.shtml> (referer: http://economy.caijing.com.cn/economics/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:08 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392714.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:09 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392861.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:12 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.amac.org.cn/xxgs/jlcf/392859.shtml> (referer: http://www.amac.org.cn/xxgs/jlcf/)
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Program Files\Python36\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\MyProject\PythonProject\ScrapyCrawl\ScrapyCrawl\ScrapyCrawl\spiders\creditCrawl.py", line 67, in parse_item
+    src = response.xpath(self.rule["src_xpath"])[0].extract()
+  File "D:\Program Files\Python36\lib\site-packages\parsel\selector.py", line 61, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2018-05-06 22:03:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 22:03:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10423,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 540366,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 14, 3, 12, 970313),
+ 'log_count/ERROR': 30,
+ 'log_count/INFO': 14,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'spider_exceptions/IndexError': 20,
+ 'start_time': datetime.datetime(2018, 5, 6, 14, 2, 44, 732698)}
+2018-05-06 22:03:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-06 22:03:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-06 22:03:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 1,
+ 'downloader/request_bytes': 11225,
+ 'downloader/request_count': 22,
+ 'downloader/request_method_count/GET': 22,
+ 'downloader/response_bytes': 546671,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 6, 14, 3, 17, 812590),
+ 'item_scraped_count': 10,
+ 'log_count/ERROR': 30,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 1,
+ 'scheduler/dequeued': 22,
+ 'scheduler/dequeued/memory': 22,
+ 'scheduler/enqueued': 22,
+ 'scheduler/enqueued/memory': 22,
+ 'spider_exceptions/IndexError': 10,
+ 'start_time': datetime.datetime(2018, 5, 6, 14, 2, 44, 747699)}
+2018-05-06 22:03:17 [scrapy.core.engine] INFO: Spider closed (finished)

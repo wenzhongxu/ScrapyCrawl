@@ -6,7 +6,7 @@
 # @Version : 1.0.1
 # @Software: PyCharm
 
-from ScrapyCrawl.items import ScrapycrawlItem
+from items import ScrapycrawlItem
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import re
@@ -46,13 +46,13 @@ class CreditcrawlSpider(CrawlSpider):
         newsitem["title"] = title
 
         # 发布时间
-        pubtime = response.xpath(self.rule["datetime_xpath"]).extract()
+        pubtime = response.xpath(self.rule["datetime_xpath"])[0].extract()
         newsitem["datetime"] = pubtime
 
         # 链接
         newsitem["srcUrl"] = response.url
 
-        author = response.xpath(self.rule["author_xpath"]).extract()
+        author = response.xpath(self.rule["author_xpath"])[0].extract()
         newsitem["author"] = author
 
         content = response.xpath(self.rule["content_xpath"]).extract()
@@ -60,17 +60,17 @@ class CreditcrawlSpider(CrawlSpider):
         newsitem["content"] = content
 
         # 频道
-        newsitem["orgSrc"] = self.rule["orgsrc"].encode("utf8")
+        newsitem["orgSrc"] = self.rule["orgsrc"]
         # 网站名称
-        newsitem["siteName"] = self.rule["sitename"].encode("utf8")
+        newsitem["siteName"] = self.rule["sitename"]
         # 来源——抓取所得
-        src = response.xpath(self.rule["src_xpath"]).extract()
+        src = response.xpath(self.rule["src_xpath"])[0].extract()
         newsitem["src"] = src
         # 分类
         newsitem["summary"] = self.rule["summary"]
         # 更新时间
         newsitem["updatetime"] = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S.%f')
         # 是否过滤负面关键字
-        newsitem["isfilter"] = self.rule["isfilter"].encode("utf8")
+        newsitem["isfilter"] = self.rule["isfilter"]
 
         yield newsitem

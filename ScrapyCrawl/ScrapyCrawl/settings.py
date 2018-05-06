@@ -113,7 +113,7 @@ AUTOTHROTTLE_MAX_DELAY = 60
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 LOG_FILE = "ScrapyCrawl.log"
-LOG_LEVEL = "DEBUG"
+LOG_LEVEL = "INFO"
 
 XCRS_HOST = "localhost"
 XCRS_PORT = "8086"
